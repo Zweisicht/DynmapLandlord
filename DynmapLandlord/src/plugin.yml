@@ -1,0 +1,13 @@
+name: DynmalLandlord
+main: at.zweisicht.dynmaplandlord.DynmapLandlord
+version: 0.1
+author: Zweisicht
+authors: []
+website: http://zweisicht.at/
+depend: [Landlord, dynmap]
+commands:
+   dll:
+      description: Reload the Marks
+      usage: /<command> reload
+      permission: dynmaplandlord.admin
+      permission-message: 'You do not have permission: <permission>'
